@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Cart</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="clothes.js"></script>
+		<link rel="stylesheet" href="clothingStoreStyle.css">
+	</head>
+	<body>
+		<header>
+			<h1> Sahara Clothing Store </h1>
+			<h2 id="descripheader"> Welcome to a new world of fashion! </h2>
+		</header>
+	<section>
+	
+	<nav>
+		
+		<ul>
+			<li> <a target="_self" href="index.html"> Home </a> </li>
+			<li><a target="_self" href="Shirts.html"> Shirts </a> </li>
+			<li><a target="_self" href="Pants.html"> Pants </a> </li>
+			<li><a target="_self" href="Shoes.html"> Shoes </a> </li>
+			<li><a target="_self" href="Accessories.html"> Accessories </a> </li>
+			<li><a target="_self" href="Cart.html"> Cart </a> </li>
+		</ul>
+		
+	</nav>
+	
+	<article class="cartbody">
+		
+		<p>
+			&hearts; 
+			Cart 
+			&hearts;
+		</p>
+		<p id = "cart_bodyp"> 
+		<script>
+			showCart();
+		</script>
+		</p>
+
+		<div> </div>
+
+		<button class = "cartBtn" onclick = "resetCart()">
+				Reset Cart
+		</button>
+		<button class = "cartBtn" onclick = "checkout()">
+			Check Out
+		</button>
+
+	</article>
+	</section>
+		
+	<footer>
+	<p> © 2022 Lahari Yallapragada and Samvi Ranka </p>
+	</footer>
+
+	</body>
+</html>

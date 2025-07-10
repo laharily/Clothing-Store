@@ -1,0 +1,260 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Style the header */
+header {
+  background-color: rgb(179, 179, 255);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  font-family: serif;
+  line-height: 0.2;
+  font-family: "Muli", sans-serif;
+  
+}
+
+#descripheader {
+	font-size: 40px;
+	font-weight: lighter;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 15%;
+  height: 730px;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  font-family: "Muli", sans-serif;
+  font-weight: lighter;
+}
+
+nav li {
+     width: 30px;
+}
+
+nav a:link, nav a:visited {
+    background-color: rgb(230, 230, 255);
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid white;
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav a:hover, nav a:active {
+	background-color: white;
+	color: purple;
+}
+
+article {
+  float: right;
+  /*margin-left: 270px;
+  padding: 20px;*/
+  width: 85%;
+  background-color: rgb(230, 230, 255);
+  height: 730px;
+  font-family: serif;
+  color: black;
+  text-align: center;
+}
+
+#bodyp {
+    font-size: 18px;
+    padding: 20px;
+    line-height: 1.2em;
+    text-align: center;
+    text-justify: inter-word;
+    overflow: hidden;
+    font-family: "Muli", sans-serif;
+    font-weight: lighter;
+}
+
+button, #submit {
+    font-size: 20px;
+    font-family: serif;
+    background-color: rgb(102, 153, 255);
+    color: white;
+    border: none;
+    text-align: center;
+    padding: 3px 10px;
+    font-family: "Muli", sans-serif;
+    font-weight: lighter;
+}
+
+.shirtBtn, .pantBtn {
+    margin: 30px 68px;
+}
+
+.shoeBtn {
+    margin: 30px 90px;
+}
+
+.accessBtn {
+    margin: 30px 80px;
+}
+
+button:hover, #submit:hover {
+    background-color: white;
+    color: rgb(102, 153, 255);
+}
+
+button:active, #submit:active {
+    color: black;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+    background-color: rgb(179, 179, 255);
+    color: rgb(13, 89, 13);
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-family: "Muli", sans-serif;
+    font-weight: lighter;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+    nav, article {
+	width: 100%;
+	height: auto;
+    }
+}
+
+#mainImage {
+	float: left;
+	padding: 0 20px 20px 20px;
+}
+
+img {
+    padding: 20px;
+}
+
+#shirt1n, #shirt2n, #shirt3n, #shirt4n {
+    display: inline;
+    font-weight: bold;
+    padding: 65px;
+    text-align: center;
+    font-family: "Muli", sans-serif;
+}
+
+#shirt1p, #shirt2p, #shirt3p, #shirt4p {
+    display: inline;
+    padding: 110px;
+    text-align: center;
+    font-family: "Muli", sans-serif;
+    font-weight: lighter;
+}
+
+#pant1n, #pant2n, #pant3n, #pant4n {
+    display: inline;
+    font-weight: bold;
+    padding: 80px;
+    text-align: center;
+    font-family: "Muli", sans-serif;
+}
+
+#pant1p, #pant2p, #pant3p, #pant4p {
+    display: inline;
+    padding: 110px;
+    text-align: center;
+    font-family: "Muli", sans-serif;
+    font-weight: lighter;
+}
+
+#shoe1n, #shoe2n, #shoe3n, #shoe4n {
+    display: inline;
+    font-weight: bold;
+    padding: 100px;
+    text-align: center;
+    font-family: "Muli", sans-serif;
+}
+
+#shoe1p, #shoe2p, #shoe3p, #shoe4p {
+    display: inline;
+    padding: 130px;
+    text-align: center;
+    font-family: "Muli", sans-serif;
+    font-weight: lighter;
+}
+
+#accessory1n, #accessory2n, #accessory3n, #accessory4n {
+    display: inline;
+    font-weight: bold;
+    padding: 95px;
+    text-align: center;
+    font-family: "Muli", sans-serif;
+}
+
+#accessory1p, #accessory2p, #accessory3p, #accessory4p {
+    display: inline;
+    padding: 115px;
+    text-align: center;
+    font-family: "Muli", sans-serif;
+    font-weight: lighter;
+}
+
+.cartBtn {
+    display: inline;
+    margin-left: 20px;
+}
+
+.checkout {
+    background-color: rgb(230, 230, 255);
+}
+
+input {
+    display: block;
+    font-family: "Muli", sans-serif;
+    font-size: 2em;
+    padding: 10px;
+    font-weight: 100;
+    border: 3px solid black;
+    margin: 15px;
+    margin-left: 560px;
+    background-color: white;
+}
+
+label {
+    margin-left: 530px;
+    font-size: 20px;
+    font-family: "Muli", sans-serif;
+    font-weight: lighter;
+}
+
+#submit {
+    margin-bottom: 20px;
+    margin-left: 720px;
+}
+
+.checkoutBody {
+    background-color: rgb(230, 230, 255);
+}
+
+.cartbody {
+    font-family: "Muli", sans-serif;
+}
+
+#checkoutp {
+    font-family: "Muli", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    line-height: 2em;
+    font-weight: lighter;
+}
