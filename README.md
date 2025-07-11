@@ -16,7 +16,7 @@ Fashionable online clothing store where you can shop for clothes, add them to yo
 ## Features
 * 7 well-designed pages of an online clothing store, including Home, Shirts, Pants, Shoes, Accessories, Cart, and Check out
 * Uses HTML, CSS, and JavaScript
-*  Includes buttons, textboxes, images, page-clearing options, and reload options that save the user's information throughout each reload
+* Includes buttons, textboxes, images, page-clearing options, and reload options that save the user's information throughout each reload
 
 
 ## Installation
